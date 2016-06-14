@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HenryLabel_Example' do
+  pod 'HenryLabel', :path => '../'
+
+  target 'HenryLabel_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
